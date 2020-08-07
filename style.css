@@ -1,0 +1,75 @@
+/* HTML Elements */
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #1EB7FA;
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    -webkit-appearance: none;
+    border: 1px solid #848484;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* ID's */
+#emoji {
+    font-size: 160px;
+}
+
+#message {  
+    text-align: center;
+    line-height: 2;
+    color: #848484;
+}
+
+/* Classes */
+.main {
+    width: 60vw;
+    height: 80vh;
+    margin: 50px auto;
+    border: 2px solid #1EB7FA;;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opt {
+    margin-top: 13px;
+    font-weight: lighter;
+    color: #848484;
+}
+.opt span:hover {
+    font-weight: bold;
+}
+
+.msg-wrapper {
+    min-width: 300px;
+    height: 30px;
+    border-bottom: 3px solid #1EB7FA;
+    margin-top: 50px;
+}
+
+/* Attributes */
+.active {
+    font-weight: bold;
+}
+.nodisplay {
+    display: none;
+}
